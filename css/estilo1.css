@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    /*background="Users\MIRYAM\OneDrive\Trabajos ADIS\Paola Instructora\htlm/lunaa.jpg"text="black"></body>*/
+    
+
+    font:16px/28px Georgia, 'Times New Roman',Times,serif;
+    background-image :URL("https://cdn.wallpapersafari.com/97/30/2WUhPt.jpg"); /*Change this to change both stribe colors*/
+    background-repeat: no-repeat;
+    /*
+    background-image: webkit-gradient(linear,0 100%,100% 0,
+                          color-stop(.25, rgba(255,255, .2)), color-stop(.25,transparent),
+                          color-stop(.5, transparent), color-stop(.5,rgba(255, 255,255 .2)),
+                          color-stop(.75, rgba(255, 255,255, .2)), color-stop(.75, transparent),
+                          to(transparent));/*Old wekit syntax*/
+    /*
+    background-image: webkit-linear-gradient(45deg, rgba(2555, 255, 255, .2)25%, transparent 25%,
+                          transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2)75%,
+                          transparent 75%, transparent); /* New  webkit syntax */
+    /*
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2)25%, transparent 25%,
+                           transparent 50%, rgba(255, 255, 255, .2)50%, rgba(255, 255, 255, .2)75%,
+                           transparent 75%, transparent );/*Firefox*/
+    /*
+    background-image:-o-linear-gradient(45deg,  rgba(255, 255, 255, .2)25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .2)50%, rgba(255, 255, 255, .2)75%,
+                            transparent 75%, transparent);/*Opera*/
+    /*
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2)25%, transparent 25%,
+                            transparent 50%, rgba(255, 255, 255, .2)50%, rgba(255, 255, 255, .2)75%,
+                            transparent 75%, transparent);
+    background-size: 16px 16px;
+    */
+    
+}
+ol, ul {
+	list-style: none;
+
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div.contenedor{
+    margin-left:auto;
+    margin-right:auto;
+    width:85%;
+    height:100%;
+    overflow: hidden;
+
+    background:rgba(204, 204, 204, .4) ;
+    border-radius:5px 5px 10px 10px;
+    -webkit-box-shadow: 0px 0px 0px 1px  rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5);
+    -moz-box-shadow:0px 0px 0px 1px rgba(255, 255, 255, 0.4) 0px  0px 15px rgba(204, 204, 204, 0.5);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204 ,204, 0.5);
+}
+header,nav,section,article,footer{
+    border-radius:10px;
+    padding:15px;
+    /*border:solid 2px black;*/
+    margin-top:10px;
+
+    /*OJO agregado para estandarizar las referencias de las cajas*/
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}header h1{
+    font: bold ;
+    font-size:40px; 
+    margin-top: 100%;  
+    float:left
+  }
+header{
+    height:100px;
+    width:100%;
+    float:center;
+    background-color:#FFAAAA ;
+    overflow: hidden;
+}
+header img{
+    float: right;
+    height: 100%;
+    margin-right: 5%;
+}
+nav{
+    width:27%;
+    float:left;
+    background-color: #FF0AAA;
+    margin-left:5px;
+}
+section{
+    /*height:500px*/
+    width:62% ;
+    float: right;
+    background-color: #D8B0FF;
+    overflow: hidden;
+}
+footer{
+    height:60px;
+    width:100%;
+    float:left;
+    background-color:#B0E8AC;
+    overflow: hidden;
+}
+
+footer img{
+     float:left;
+     height: 100%;
+     margin-right: 20%;
+}
+header,footer,article{
+    margin-top:10px;
+    margin-bottom:10px ;
+}
+article{
+    /*height:30%;*/
+    width:90%;
+    float: center;
+    background-color: #AAF0FF;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right: auto;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family:'Droid Serif', sans-serif;
+   text-shadow: 0 2px 0 #fff; 
+}
+
+h1  {
+    font-size: 32px;
+}
+
+h2  {
+    font-size: 26px;
+}
+
+h3  {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Serif', sans-serif;
+}
+
+h1  {
+    font-size: 32px;
+    text-shadow: 0 2px 0 #fff;
+}
+
+h2  {
+    font-size: 26px;
+}
+
+h3  {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
